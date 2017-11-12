@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f53dc7e-4c8f-4245-a6f5-b4f0e5f299b7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/driving_pattern_recongization.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/testhttp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README_Chromium" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README_CoffeemeterGame" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README_finalisierung" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README_intersections" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README_js_demo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README_trajData4ExternalUse" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README_transform3d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TODO_CoffeemeterGame" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bash/engl2ger.bash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bash/upload.bash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coffeemeterGame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/competition/README_link" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/competition/submission/Anschreiben.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/styleCoffeemeterGame.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/styleSliders.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/styleTrafficSimulationDe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/TrafficSimulationDe.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/TrafficSimulationDe.tex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/figs/nj265378fig2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/figs/screen_onramp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/figs/screen_ringroad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/figs/screen_roadworks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/figs/screen_routing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/figs/screen_uphill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/longAbstract.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/shortAbstract.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Car-Following_Behavior.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Fahrstil-Parameter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Fahrverhalten.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Lane-Changing_Behavior.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Links.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Links.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Models.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Models.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Simulation.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Simulation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Spurwechsel-Parameter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Spurwechselverhalten.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo00.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo10.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo100.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo110.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo110.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo120.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo20.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo30.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo40.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo50.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo60.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo70.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo80.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo90.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Tempo90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Traffic_Flow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Traffic_Flow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Traffic_Flow_and_General.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Using_this.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Using_this.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Verkehr_und_Allgemeines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Verkehrsfluss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Autobahnabfahrt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Autobahnabfahrt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Autobahnabfahrt2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Baustelle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Baustelle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_GeradeausUndRechts.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Info.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Kreisverkehr.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Laneclosing2-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Laneopening1-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Laneopening1-2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Steigung4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Steigung4.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Steigung4_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Stopp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Stopp.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Stopp1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Stopp_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Tempo60.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_Tempo80.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_UeberholverbotLKW.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_UeberholverbotLKW_ende.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_UmleitungLandstr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_UmleitungLandstr.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/Zeichen_allesFrei.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/autobahn_minus.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/autobahn_minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/autobahn_plus.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/autobahn_plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/autobahn_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/backgroundGrass.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/backgroundGrassTest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/backgroundParis.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/blackCarCropped.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/buttonGo_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/buttonStop1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/buttonStop2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/buttonStop3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/buttonStop3_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/buttonStop4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/carSmall2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/colormap.README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/colormap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/colormap_grass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh10_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh11_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh12_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh1_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh4_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh5_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh6_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh7_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh8_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/constructionVeh9_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/emptycupBack.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/emptycupFront.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/emptycupFront.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/emptycupFrontSave.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/emptycupOrig.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOfframp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOfframpFig.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOfframpFig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOfframpFig_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOfframpFig_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOfframp_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOnramp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOnrampFig.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOnrampFig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOnrampFig_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOnrampFig_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconOnramp_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRing_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoadwUphill.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoadwUphill_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoadworksFig.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoadworksFig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoadworksFig_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoadworksFig_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRouting.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoutingFig.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoutingFig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoutingFig_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoutingFig_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRoutingFig_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconRouting_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconUphillFig.fig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconUphillFig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconUphillFig_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/iconUphillFig_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/infoBlue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/obstacleImg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/road1lanesCropWith.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/road1lanesCropWithout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/road2lanesCropWith.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/road2lanesCropWithout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/road3lanesCropWith.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/road3lanesCropWithout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/road4lanesCropWith.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/road4lanesCropWithout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/roadBarrier1_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/roadBarrier1_redWhite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/roadBarrier1_redWhite_squeezed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/roadBarrier1_rotated.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/roadBarrier2_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/roadBarrier2_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/roadBarrier2_small_affine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/sign_free_282_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/speedometer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/speedometerOrig.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/testAffineInput.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/testAffinePerformed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightGreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightGreen_affine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightGreen_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightRed.affCmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightRed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightRed_affine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightRed_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightYellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightYellow_affine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightYellow_orig.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/trafficLightsVarious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/truck1Small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/truckOvertakingBan_small.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/figs/uphill12_small.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/flagGerman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/flagUSA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/impressum.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/IDMsstar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/IDMv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_BC.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_BC_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_Deviation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_Deviation_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_IDM.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_IDM_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_MOBIL.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_MOBIL_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_OffRamp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_OffRamp_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_OnRamp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_OnRamp_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_Ring.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_Ring_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_RoadWorks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_RoadWorks_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_Uphill.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_Uphill_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_gui.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_gui_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_links.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_routingGame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info/info_routingGame_ger.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/Coffeemeter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/EgovehControl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/Speedometer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/canvas_gui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/canvasresize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/coffeemeterGame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/coffeemeterGame_gui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/colormanip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/control_gui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/demo_initializeMicro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/models.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/offramp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/onramp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/paths.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/redirect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/ring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/road.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/roadworks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/routing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/stationaryDetector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/timeView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/transform3d.README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/transform3d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/uphill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vehicle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vehicleDepot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/offramp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/onramp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/onrampHOT.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/roadworks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/uphill.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wm-html-include/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wm-html-include/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wm-html-include/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wm-html-include/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wm-html-include/wm-html-include.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wm-html-include/wm-html-include.min.js" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="411" column="68" lean-forward="false" selection-start-line="411" selection-start-column="51" selection-end-line="411" selection-end-column="68" />
+              <folding>
+                <element signature="e#5268#6779#0" expanded="false" />
+                <element signature="e#6842#8653#0" expanded="false" />
+                <element signature="e#8723#10636#0" expanded="false" />
+                <element signature="e#13584#14211#0" expanded="false" />
+                <element signature="e#14262#14454#0" expanded="false" />
+                <element signature="e#14514#17421#0" expanded="false" />
+                <element signature="e#15809#16411#0" expanded="false" />
+                <element signature="e#16446#17045#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Speedometer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/Speedometer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2121">
+              <caret line="101" column="35" lean-forward="false" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ring.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/ring.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styleTrafficSimulationDe.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/styleTrafficSimulationDe.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6363">
+              <caret line="303" column="17" lean-forward="false" selection-start-line="303" selection-start-column="17" selection-end-line="303" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="road.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/road.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="509" column="8" lean-forward="false" selection-start-line="509" selection-start-column="8" selection-end-line="509" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driving_pattern_recongization.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/driving_pattern_recongization.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vehicle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/vehicle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new aggregation</find>
+      <find>vehicle</find>
+      <find>update_iLead</find>
+      <find>HELLO</find>
+      <find>Drawing Vehciles</find>
+      <find>Display</find>
+      <find>Draw Vehicles</find>
+      <find>getRoadVehcilesJson</find>
+      <find>getVehciles</find>
+      <find>getVehicle</find>
+      <find>getRoad</find>
+      <find>mainRoad</find>
+      <find>km/h</find>
+      <find>getCurrentCarDrivingSkills</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\IoT_Project\RoadTalk\traffic-simulation-de</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/vehicle.js" />
+        <option value="$PROJECT_DIR$/js/road.js" />
+        <option value="$PROJECT_DIR$/js/offramp.js" />
+        <option value="$PROJECT_DIR$/js/ring.js" />
+        <option value="$PROJECT_DIR$/app/server.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/css/styleTrafficSimulationDe.css" />
+        <option value="$PROJECT_DIR$/public/js/ring.js" />
+        <option value="$PROJECT_DIR$/public/js/testhttp.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/js/road.js" />
+        <option value="$PROJECT_DIR$/app/driving_pattern_recongization.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="traffic-simulation-de" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traffic-simulation-de" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traffic-simulation-de" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traffic-simulation-de" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../roadtalkweb" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IoT_Project\RoadTalk\traffic-simulation-de" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.driving_pattern_recongization.js">
+    <configuration name="driving_pattern_recongization.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="driving_pattern_recongization.js" working-dir="$PROJECT_DIR$/app" />
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$/app">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+    </configuration>
+    <configuration name="testhttp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="testhttp.js" working-dir="$PROJECT_DIR$/public/js" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.server.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.testhttp.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.driving_pattern_recongization.js" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.driving_pattern_recongization.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.testhttp.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f53dc7e-4c8f-4245-a6f5-b4f0e5f299b7" name="Default" comment="" />
+      <created>1508556843798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508556843798</updated>
+      <workItem from="1508556845083" duration="5115000" />
+      <workItem from="1508860970582" duration="29443000" />
+      <workItem from="1509546520644" duration="38101000" />
+      <workItem from="1509965242546" duration="36756000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="109415000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/js/ring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8232">
+          <caret line="392" column="13" lean-forward="false" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4956">
+          <caret line="236" column="19" lean-forward="false" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styleTrafficSimulationDe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6363">
+          <caret line="303" column="17" lean-forward="false" selection-start-line="303" selection-start-column="17" selection-end-line="303" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/road.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10710">
+          <caret line="510" column="23" lean-forward="false" selection-start-line="510" selection-start-column="17" selection-end-line="510" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/vehicle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding>
+            <marker date="1509644517012" expanded="true" signature="31634:31642" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <folding>
+            <element signature="e#5268#6779#0" expanded="false" />
+            <element signature="e#6842#8653#0" expanded="false" />
+            <element signature="e#8723#10636#0" expanded="false" />
+            <element signature="e#13584#14211#0" expanded="false" />
+            <element signature="e#14262#14454#0" expanded="false" />
+            <element signature="e#14514#17421#0" expanded="false" />
+            <element signature="e#15809#16411#0" expanded="false" />
+            <element signature="e#16446#17045#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4956">
+          <caret line="236" column="19" lean-forward="false" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styleTrafficSimulationDe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6363">
+          <caret line="303" column="17" lean-forward="true" selection-start-line="303" selection-start-column="17" selection-end-line="303" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/road.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10668">
+          <caret line="510" column="23" lean-forward="false" selection-start-line="510" selection-start-column="17" selection-end-line="510" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/vehicle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding>
+            <marker date="1509644517012" expanded="true" signature="31634:31642" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8337">
+          <caret line="397" column="22" lean-forward="false" selection-start-line="397" selection-start-column="22" selection-end-line="397" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/stationaryDetector.js" />
+    <entry file="file://$PROJECT_DIR$/js/roadworks.js" />
+    <entry file="file://$PROJECT_DIR$/js/canvas_gui.js" />
+    <entry file="file://$PROJECT_DIR$/js/models.js" />
+    <entry file="file://$PROJECT_DIR$/js/control_gui.js" />
+    <entry file="file://$PROJECT_DIR$/js/demo_initializeMicro.js" />
+    <entry file="file://$PROJECT_DIR$/js/road.js" />
+    <entry file="file://$PROJECT_DIR$/js/ring.js" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/js/control_gui.js" />
+    <entry file="file://$PROJECT_DIR$/js/models.js" />
+    <entry file="file://$PROJECT_DIR$/js/canvas_gui.js" />
+    <entry file="file://$PROJECT_DIR$/js/roadworks.js" />
+    <entry file="file://$PROJECT_DIR$/js/vehicle.js" />
+    <entry file="file://$PROJECT_DIR$/js/demo_initializeMicro.js" />
+    <entry file="file://$PROJECT_DIR$/js/timeView.js" />
+    <entry file="file://$PROJECT_DIR$/js/Speedometer.js" />
+    <entry file="file://$PROJECT_DIR$/js/stationaryDetector.js" />
+    <entry file="file://$PROJECT_DIR$/js/road.js" />
+    <entry file="file://$PROJECT_DIR$/js/offramp.js" />
+    <entry file="file://$PROJECT_DIR$/js/ring.js" />
+    <entry file="file://$PROJECT_DIR$/bash/upload.bash" />
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styleTrafficSimulationDe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6363">
+          <caret line="303" column="17" lean-forward="false" selection-start-line="303" selection-start-column="17" selection-end-line="303" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="564" column="2" lean-forward="false" selection-start-line="564" selection-start-column="2" selection-end-line="564" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/testhttp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/stationaryDetector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="87" column="30" lean-forward="true" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/Speedometer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2121">
+          <caret line="101" column="35" lean-forward="false" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <marker date="1509644517012" expanded="true" signature="31634:31642" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/vehicle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/ring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/road.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="509" column="8" lean-forward="false" selection-start-line="509" selection-start-column="8" selection-end-line="509" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/driving_pattern_recongization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="411" column="68" lean-forward="false" selection-start-line="411" selection-start-column="51" selection-end-line="411" selection-end-column="68" />
+          <folding>
+            <element signature="e#5268#6779#0" expanded="false" />
+            <element signature="e#6842#8653#0" expanded="false" />
+            <element signature="e#8723#10636#0" expanded="false" />
+            <element signature="e#13584#14211#0" expanded="false" />
+            <element signature="e#14262#14454#0" expanded="false" />
+            <element signature="e#14514#17421#0" expanded="false" />
+            <element signature="e#15809#16411#0" expanded="false" />
+            <element signature="e#16446#17045#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
